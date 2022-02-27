@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> HTML | Forms</title>
+</head>
+<body>
+	<form action="" method="">
+
+		 <fieldset>
+		    <legend>Personal Information:</legend>
+			    <label for = "name">Your Name</label>
+				<input id = "name" type="text" name="Name" placeholder="Write your name" required><br>
+				<label for = "surname">Your Surname</label>
+				<input id = "surname" type="text" name="Surname" placeholder="Write your Surname" required><br>
+				<label for = "email">Your Email</label>
+				<input id = "email" type="email" name="Email" placeholder="Write your email" required><br>
+				<label for = "date">Your Birthday</label>
+				<input id = "date "type="date" name="Date" required><br>
+				<label for = "password">Your Password</label>
+				<input id = "password" type="password" name="Password" required>
+  		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Gender Information</legend>
+				<label for = "gender">Select Your Gender</label>
+				<select id = "gender">
+					<option>Male</option>
+					<option>Female</option>
+					<option>Don't want to mention</option>
+				</select>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Your Education</legend>
+				<label for = "checkbox">Choose Your Education Degree</label><br>
+				<input id = "checkbox" type="checkbox" name="Checkbox" required> School Degree <br>
+				<input id = "checkbox" type="checkbox" name="Checkbox" required> Master Degree <br>
+				<input id = "checkbox" type="checkbox" name="Checkbox" required> Bachelor Degree <br>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Your Region</legend>
+			<label for = "radio">Choose Your Education Degree</label><br>
+				<input id = "radio" type="radio" name="radio" required> Azerbaijan <br>
+				<input id = "radio" type="radio" name="radio" required> Turkey <br>
+				<input id = "radio" type="radio" name="radio" required> Ukraine <br>
+		</fieldset>
+		<fieldset>
+			<legend>Message Area</legend>
+				<label for = "message">Your Message</label>
+			    <textarea id = "message"></textarea>
+		</fieldset>
+		<br>
+		<button>Register</button>
+	</form>
+</body>
+</html>
